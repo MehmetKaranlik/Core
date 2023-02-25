@@ -10,7 +10,7 @@ import SwiftUI
 
 
 @available(iOS 13.0, *)
-extension View {
+public extension View {
    func toHostingController() -> UIHostingController<Self> {
       return UIHostingController<Self>(rootView: self)
    }

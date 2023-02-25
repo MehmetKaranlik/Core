@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 @available(iOS 13.0, *)
-extension UIHostingController {
+public extension UIHostingController {
 
    func addToVC(target : UIViewController) -> Void {
       target.addChild(self)

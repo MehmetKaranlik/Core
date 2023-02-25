@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct GlobalConstants {
+public struct GlobalConstants {
    
    static let kZero = 0
    static let kOne = 1

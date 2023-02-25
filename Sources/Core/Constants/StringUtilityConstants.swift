@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct StringUtilityConstants {
+public struct StringUtilityConstants {
    static let asteriks = "*"
    static let incrementSymbol = "+"
    static let decrementSymbol = "-"

@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct RegexConstants {
+public struct RegexConstants {
 
 }

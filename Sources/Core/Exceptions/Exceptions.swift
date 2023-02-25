@@ -8,7 +8,7 @@
 import Foundation
 
 
-enum Exceptions : Error {
+public enum Exceptions : Error {
    case notImplemented
    case runtime
    case unexpected(code : Int)

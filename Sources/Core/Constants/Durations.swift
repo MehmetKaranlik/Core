@@ -8,7 +8,7 @@
 import Foundation
 
 
-enum Durations : Double {
+public enum Durations : Double {
    case low = 0.5
    case normal = 1
    case high = 2

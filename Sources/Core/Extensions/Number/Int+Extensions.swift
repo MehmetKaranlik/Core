@@ -8,7 +8,7 @@
 import Foundation
 
 
-extension Int {
+public extension Int {
 
    func next() -> Int {
       return self+1

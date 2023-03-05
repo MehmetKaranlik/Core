@@ -29,4 +29,11 @@ public extension View {
             .debounce(for: .seconds(0.1), scheduler: RunLoop.main)
             .eraseToAnyPublisher()
    }
+
+   func environmentOrNil<T: ObservableObject>(object : T?) -> some View {
+      self
+         .modifier(
+            OptionalEnvironmentModifier(environmentObject: object)
+         )
+   }
 }
